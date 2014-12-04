@@ -1,0 +1,21 @@
+//--------------- BASE SETTINGS ---------------//
+
+$gutter: 15px;
+
+$large_width: 1170px;
+$large_width_breakpoint: 1200px;
+$large_width_breakpoint_max: $large_width_breakpoint - 1px;
+
+$desktop_width: 970px;
+$desktop_breakpoint: 992px;
+$desktop_breakpoint_max: $desktop_breakpoint - 1px;
+
+$tablet_width: 740px;
+$tablet_breakpoint: 768px;
+$tablet_breakpoint_max: $tablet_breakpoint - 1px;
+
+$prefix-for-webkit:    true;
+$prefix-for-mozilla:   true;
+$prefix-for-microsoft: true;
+$prefix-for-opera:     true;
+$prefix-for-spec:      true;

@@ -1,0 +1,19 @@
+{
+  "name": "alloySix",
+  "version": "1.0.0",
+  "description": "Bandsite for The Alloy Six",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "~3.8.8",
+    "gulp-sass": "^0.7.3",
+    "gulp-concat": "^2.4.1",
+    "gulp-minify-css": "^0.3.10",
+    "gulp-rename": "^1.2.0",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "^1.0.5",
+    "gulp-scss-lint": "^0.1.3",
+    "gulp-cached": "^1.0.1",
+    "shelljs": "^0.3.0"
+  }
+}

@@ -1,0 +1,22 @@
+//--------------- BASE IMPORTS ---------------//
+@import '_settings';
+@import '_mixins';
+@import '_grid';
+@import '_base';
+
+//--------------- MEDIA QUERIES FOR LARGER VIEWPORTS ---------------//
+
+// iPad-viewport
+@media (min-width: $tablet_breakpoint) {
+	@import '_device_tablet';
+}
+
+// Desktop-viewport
+@media (min-width: $desktop_breakpoint) {
+	@import '_device_desktop';
+}
+
+// Large desktop-viewport
+@media (min-width: $large_width_breakpoint) {
+	@import '_device_large';
+}

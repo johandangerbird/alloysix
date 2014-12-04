@@ -1,0 +1,43 @@
+/*-------------------------------------
+*	BASE STYLES / FOR LARGE DESKTOP VIEWPORTS
+*-------------------------------------*/
+
+/*
+	TABLE OF CONTENTS:
+----------------------------------
+	€1. MAIN / GENERAL
+----------------------------------
+*/
+
+/*
+	€1. MAIN / GENERAL
+*/
+
+h1, .h1 {
+	@include font-size(12.77);
+	letter-spacing: 25.5px;
+	margin: 0;
+	line-height: .73;
+	text-align: center;
+
+	span {
+		letter-spacing: 0;
+	}
+}
+
+h2, .h2 {
+	@include font-size(3.2);
+	letter-spacing: 5px;
+	line-height: .8;
+	margin: 0;
+}
+
+.gigbanner {
+	width: 360px;
+	height: 360px;
+	@include font-size(2);
+
+	&.gigbanner-01 {
+		padding-top: 105px;
+	}
+}
