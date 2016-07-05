@@ -1,22 +1,64 @@
-//--------------- BASE IMPORTS ---------------//
-@import '_settings';
-@import '_mixins';
-@import '_grid';
-@import '_base';
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900);
+@import 'normalize';
 
-//--------------- MEDIA QUERIES FOR LARGER VIEWPORTS ---------------//
-
-// iPad-viewport
-@media (min-width: $tablet_breakpoint) {
-	@import '_device_tablet';
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
-// Desktop-viewport
-@media (min-width: $desktop_breakpoint) {
-	@import '_device_desktop';
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
 }
 
-// Large desktop-viewport
-@media (min-width: $large_width_breakpoint) {
-	@import '_device_large';
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5rem;
+	background: url(../img/swamp-alloy.jpg) center top;
+	background-size: cover;
+	color: #fff;
+}
+
+/*
+	HERO
+*/
+
+.hero {
+	position: relative;
+	width: 100%;
+	height: 90rem;
+}
+
+.hero__content {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	max-width: 90%;
+	width: 80rem;
+}
+
+.hero__header {
+	margin-bottom: 4rem;
+}
+
+.hero__heading {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 8rem;
+	font-weight: 900;
+	margin: 0;
+	letter-spacing: 1.5rem;
+	line-height: 1;
+}
+
+.hero__subheading {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 5.1rem;
+	font-weight: 900;
+	letter-spacing: 1rem;
+	margin: 0;
+	line-height: 1;
 }
